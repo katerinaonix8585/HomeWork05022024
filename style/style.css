@@ -1,0 +1,45 @@
+body{
+    background-color: #ecf0f1;
+}
+
+h1{
+    text-align: center;
+    color: #6495ed;
+}
+
+.social_media{
+    background-color: #ecf0f1;
+    display: inline-block;
+}
+
+.social_media a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+.social_media img{
+    height: 25px;    
+}
+
+.cart img{
+    width: 200px;
+}
+
+.cart{
+    margin: 20px;
+    border: 2px solid rgb(82, 162, 182);
+    display: inline-block;
+    
+}
+
+.cart p{
+    width: 20px;
+    height: 40px;
+    display: inline-block;
+}
+
+.information :user-invalid{
+    list-style: circle;
+}

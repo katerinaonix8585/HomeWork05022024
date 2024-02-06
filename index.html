@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style/style.css"></link>
+</head>
+<body>
+<form>
+    <div>
+        <label>
+            <p>Имя: </p>
+            <input type="text" name="firstname" placeholder="Имя">
+        </label>
+        <label>
+            <p>Фамилия: </p>
+            <input type="text" name="lastname" placeholder="Фамилия">
+        </label>
+        <label>
+            <p>Имя: </p>
+            <input type="email" name="email" placeholder="E-Mail">
+        </label>
+        <label>
+            <p>Пароль:</p>
+            <input type="password" name="password" placeholder="Пароль">
+        </label>
+        <label>
+            <p>Пол:</p>
+            <select required name="gender">
+                <option value="">Выберите пол: </option>
+                <option value="m">Женский</option>
+                <option value="f">Мужской</option>
+                <option value="o">Другое</option>
+            </select>
+        </label>
+        <label>
+            <p>Дата рождения:</p>
+            <input required type="date" name="birthday" placeholder="Дата рождения">
+        </label>
+        <label>
+            <p>Согласие с условиями использования: </p>
+            <input type="checkbox" value="1" name="comfirmed">        
+        </label>
+    </div>
+    <p></p>
+    <div class="social_media">
+        <a href="https://www.facebook.com">
+            <img src="media/facebook.png" alt="facebook"></a>
+        <a href="https://www.instagram.com">
+            <img src="media/instagram.png" alt="instagram"></a>
+        <a href="https://www.linkedin.com">
+            <img src="media/linkedin.png" alt="linkedin"></a>
+    </div>
+    <div>
+        <p></p>
+        <button>Регистрация</button>
+    </div>
+
+    <div class="information">
+        <ul>Типы цветов: 
+            <li>садовые;</li>
+            <li>комнатные.</li>
+        </ul>
+        <ol>Примеры различных цветов:
+            <li>Мак</li>
+            <li>Орхидея</li>
+            <li>Пион</li>
+            <li>Лилия</li>
+        </ol>
+    </div>
+
+    <div class="cart_container">
+        <div class="cart">
+            <img src="media/mak.jpg" alt="cover">        
+        </div>
+        <div class="cart">
+            <img src="media/orchidey.jpg" alt="cover">
+        </div>
+        <div class="cart">
+            <img src="media/pion.jpg" alt="cover">
+        </div>
+        <div class="cart">
+            <img src="media/liliya.jpg" alt="cover">
+        </div>
+    </div>
+
+</form>    
+</body>
+</html>
